@@ -1,11 +1,11 @@
 # CWB_FM_data_process
 CWB and Formosa array data process, cut, aimbat and plot code
-#
-# P and S arrival need to be aimbated seperately
-#1. ascii_sac.py
-#   create p and s directory
-#   change axisem result (xy) into sac file
-#CT15  WU18 not used! (only with Z comp)
+
+P and S arrival need to be aimbated seperately
+1. ascii_sac.py
+   create p and s directory
+   change axisem result (xy) into sac file
+CT15  WU18 not used! (only with Z comp)
 1. cut data and mark t0 t2
 
 2. aimbat_loop.csh
