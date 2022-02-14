@@ -1,0 +1,17 @@
+# readme
+#
+pre-processing for aimbat
+cut continuous mseed data (cwb & bats), save into sac
+the event info is in events_lat_lon_dep
+
+* please check the os.mkdir() command before execute scripts
+* May still have some bugs due to data (ex. gap, no data ......)
+
+Recommend order
+1. cut_cwb_continu_tmark.py 
+
+2. bats_conti_tmark.py
+
+Result :
+The cwb & bats sac data will store at /p/$event/sac or /s/$event/sac
+
